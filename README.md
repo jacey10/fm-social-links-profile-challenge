@@ -21,7 +21,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 - Solution URL: (https://github.com/jacey10/fm-social-links-profile-challenge.git)
-- Live Site URL: ()
+- Live Site URL: (https://jacey10.github.io/fm-social-links-profile-challenge/)
 
 ## My process
 
@@ -33,7 +33,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 
 ### What I learned
-- I learned from online sources that I can place <header> element inside a <section>.
+- I learned from online sources that I can place a header element inside a section.
 - I had a better understanding of "display:block" and how elements with this property expands to fill the width of their containers.
 - I implemented the mobile first design, before writing media queries for larger screens (i.e. tablets and desktops).
 - Applied transform (translateY) on hover and active state, which ensures the full interaction feels natural for users/visitors.
