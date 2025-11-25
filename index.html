@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | Social links profile</title>
-  <link rel="preload" href="assets/fonts/inter-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/fonts/inter-v20-latin-600.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/fonts/inter-v20-latin-700.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Social links profile</title>
+    <link rel="preload" href="assets/fonts/inter-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/inter-v20-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/inter-v20-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-<body>
-  <main>
-    <section>
-      <header>
+  <body>
+    <main>
+      <section class="main__author--bio">
         <img class="main__author--image" src="assets/images/avatar-jessica.jpeg" alt="" width="176" height="176">
-       <h1 class="main__author--name">Jessica Randall</h1>
-       <h3 class="main__author--location">London, United Kingdom</h3>
-      </header>
-    </section>
 
-    <p class="main__author--description">"Front-end developer and avid reader."</p>
+        <h1 class="main__author--name">Jessica Randall</h1>
+        <p class="main__author--location">London, United Kingdom</p>
+        <p class="main__author--description">"Front-end developer and avid reader."</p>
+      </section>
 
-    <nav class="main__social--links">
-      <ul>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">Frontend Mentor</a></li>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Instagram</a></li>
-      </ul>
-    </nav>
-  </main>
-</body>
+      <nav aria-label="Social Links" class="main__social--links">
+        <ul>
+          <li><a href="#" >GitHub</a></li>
+          <li><a href="#">Frontend Mentor</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </nav>
+    </main>
+  </body>
 </html>
 
 
