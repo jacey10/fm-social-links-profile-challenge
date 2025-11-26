@@ -120,7 +120,7 @@ main {
 
 .main__author--name {
   color: var(--color-white);
-  font-size: clamp(1.5rem, 1.75vw, 2.0rem);
+  font-size: clamp(1.6rem, 1.75vw, 2.0rem);
   margin-block-end: 0.15rem;
   font-weight: 700;
 }
@@ -186,8 +186,8 @@ main {
 
 @media screen and (min-width:48rem) {
   main {
-    width: 50%;
-    max-width: 24.5rem;
+    width: 40%;
+    max-width: 22rem;
   }
 
   .main__author--description {
